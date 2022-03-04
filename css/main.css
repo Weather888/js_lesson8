@@ -1,7 +1,23 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 h1{
-    margin: 10px 5px;
+  font: 25px/3 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  transform: scalex(0.745);
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+form {
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 390px;
+  margin: 0 auto;
+  
 }
 label{
     display: block;
