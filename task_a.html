@@ -17,28 +17,37 @@
         <!-- your input elements here -->
 
         <label>Имя:</label>
-        <input type="text" name="first name" autofocus required id="firstnm"/>
+        <br>
+        <input type="text" name="first name" autofocus required id="firstnm" placeholder="*"/>
         <br>
         <label>Фамилия:</label>
-        <input type="text" name="last name" required id="lastnm"/>
+        <br>
+        <input type="text" name="last name" required id="lastnm" placeholder="*"/>
         <br>
         <label>E-mail:</label>
+        <br>
         <input type="email" name="email" required id="email"/>
         <br>
         <label>Номер телефона:</label>
-        <input type="tel" name="phone number" id="phonenumber" placeholder="формат: +375 29 0123456"/>
+        <br>
+        <input type="tel" name="phone number" id="phonenumber" placeholder="* формат: +375 29 0123456"/>
         <br>
         <label>Адрес:</label>
+        <br>
         <input type="text" name="address" id="address"/>
         <br>
         <label>Почтовый код:</label>
-        <input type="text" name="postal code"  pattern="[0-9]{6}" id="postalcode"/>
+        <br>
+        <input type="text" name="postal code"  pattern="[0-9]{6}" id="postalcode" placeholder="формат: 220000" />
         <br>
         <label>Пароль:</label>
-        <input type="password" name="password" required id="password"/>
         <br>
+        <input type="password" name="password" required id="password" placeholder="*"/>
+        <br>
+        <p> * отмечены поля обязательные для ввода</p>
         <label>Отправить:</label>
-         <input type="submit" value="ОК" id="submitbutton"/>
+        <br>
+        <input type="submit" value="ОК" id="submitbutton"/>
     </form>
 
 </main>
